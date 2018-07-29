@@ -1,22 +1,22 @@
 [
     {
         "type": "room",
-        "index": 1
-    },
-    {
-        "type": "room",
-        "index": 3
-    },
-    {
-        "type": "person",
-        "index": 2
-    },
-    {
-        "type": "person",
-        "index": 1
+        "index": 6
     },
     {
         "type": "weapon",
-        "index": 1
+        "index": 0
+    },
+    {
+        "type": "weapon",
+        "index": 2
+    },
+    {
+        "type": "weapon",
+        "index": 3
+    },
+    {
+        "type": "weapon",
+        "index": 5
     }
 ]

@@ -4,15 +4,32 @@ let clue = require("./clue")
 
 let constraints = []
 let players = [
-    "Winona",
-    "Charlotte",
-    "Luise",
-    "Sarah"
+    "Doris",
+    "Michael",
+    "Sarah",
+    "Fabian"
 ]
-let currentPlayer = 0
-let thisPlayer = 3
+let currentPlayer = 2
+let thisPlayer = 0
 
 async function main() {
+    let players = []
+    let amountPlayers = await inquirer.prompt([
+        {type: "input", name:"num", message: "Wie viele Mitspieler? "}
+    ])
+    for (let i = 0; i < amountPlayers.num; i++) {
+        let player = await inquirer.prompt([
+            {type: "input", name:"name", message:"Name: "},
+            {type: "input", name:"numCards", message:"Anzahl der Karten: "}
+        ])
+        players.push({
+            name: player.name,
+            cards: player.numCards
+        })
+    }
+    let info = await inquirer.prompt([
+        {type: "list"}
+    ])
     while (true) {
         console.log("An der Reihe: " + players[currentPlayer])
         let constraint = {}

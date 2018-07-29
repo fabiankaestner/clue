@@ -5,17 +5,12 @@ const chalk = require("chalk")
 
 let players = [
     {
-        name: "Winona",
+        name: "Doris",
         hasNot: [],
         has: []
     },
     {
-        name: "Charlotte",
-        hasNot: [],
-        has: []
-    },
-    {
-        name: "Luise",
+        name: "Michael",
         hasNot: [],
         has: []
     },
@@ -24,8 +19,13 @@ let players = [
         hasNot: [],
         has: []
     },
+    {
+        name: "Fabian",
+        hasNot: [],
+        has: []
+    },
 ]
-let ownPlayer = 3
+let ownPlayer = 0
 let names = {
     room: [
         "Küche",
@@ -125,14 +125,14 @@ function checkAdd(arr, card) {
 }
 
 function main() {
-    
+
     let accusations = JSON.parse(fs.readFileSync("constraints.json"))
     let constraints = []
     for (let accusation of accusations) {
-        if (accusation.suspect) {
+        if (accusation.suspect != undefined) {
             for (let i =  1; i < 4; i++) {
                 let player = (i + accusation.by) % 4
-                if (player != accusation.refusedBy) {
+                if (player !== accusation.refusedBy) {
                     checkAdd(players[player].hasNot, clue.suspect[accusation.suspect])
                     checkAdd(players[player].hasNot, clue.room[accusation.room])
                     checkAdd(players[player].hasNot, clue.weapon[accusation.weapon])
@@ -207,7 +207,7 @@ function main() {
         //fs.writeFileSync("dists.json", JSON.stringify(dists))
         //fs.writeFileSync("valid.json", JSON.stringify(valid))
 
-    
+
     let res = {
         players: [],
         middle: {},
@@ -276,23 +276,23 @@ function display(res) {
 let myCards = [
     {
         type: "room",
-        index: 1
-    },
-    {   
-        type: "room",
-        index: 3
-    },
-    {
-        type: "suspect",
-        index: 2
-    },
-    {
-        type: "suspect",
-        index: 1
+        index: 6
     },
     {
         type: "weapon",
-        index: 1
+        index: 0
+    },
+    {
+        type: "weapon",
+        index: 2
+    },
+    {
+        type: "weapon",
+        index: 3
+    },
+    {
+        type: "weapon",
+        index: 5
     }
 ]
 let gameCards = Object.assign({}, clue)

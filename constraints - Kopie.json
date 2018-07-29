@@ -1,0 +1,119 @@
+[
+    {
+        "by": 2,
+        "suspect": 0,
+        "room": 3,
+        "weapon": 0,
+        "refusedBy": 3,
+        "refusedWithType": "Person",
+        "refusedWith": 0
+    },
+    {
+        "by": 3,
+        "suspect": 2,
+        "room": 2,
+        "weapon": 3,
+        "refusedBy": 0,
+        "refusedWithType": "Waffe",
+        "refusedWith": 3
+    },
+    {
+        "by": 0
+    },
+    {
+        "by": 1,
+        "suspect": 1,
+        "room": 5,
+        "weapon": 0,
+        "refusedBy": 3,
+        "refusedWithType": "Raum",
+        "refusedWith": 5
+    },
+    {
+        "by": 2,
+        "suspect": 5,
+        "room": 2,
+        "weapon": 2,
+        "refusedBy": 0
+    },
+    {
+        "by": 3,
+        "suspect": 0,
+        "room": 3,
+        "weapon": 1,
+        "refusedBy": 2,
+        "refusedWithType": "Raum",
+        "refusedWith": 3
+    },
+    {
+        "by": 0,
+        "suspect": 1,
+        "room": 5,
+        "weapon": 4,
+        "refusedBy": 3,
+        "refusedWithType": "Raum",
+        "refusedWith": 5
+    },
+    {
+        "by": 1,
+        "suspect": 2,
+        "room": 3,
+        "weapon": 5,
+        "refusedBy": 2
+    },
+    {
+        "by": 2,
+        "suspect": 3,
+        "room": 0,
+        "weapon": 1,
+        "refusedBy": 3,
+        "refusedWithType": "Waffe",
+        "refusedWith": 1
+    },
+    {
+        "by": 3,
+        "suspect": 4,
+        "room": 7,
+        "weapon": 3,
+        "refusedBy": 0,
+        "refusedWithType": "Waffe",
+        "refusedWith": 3
+    },
+    {
+        "by": 0,
+        "suspect": 1,
+        "room": 7,
+        "weapon": 2,
+        "refusedBy": false
+    },
+    {
+        "by": 1,
+        "suspect": 2,
+        "room": 6,
+        "weapon": 5,
+        "refusedBy": 2
+    },
+    {
+        "by": 2,
+        "suspect": 1,
+        "room": 6,
+        "weapon": 0,
+        "refusedBy": 0
+    },
+    {
+        "by": 3,
+        "suspect": 1,
+        "room": 0,
+        "weapon": 0,
+        "refusedBy": 0,
+        "refusedWithType": "Waffe",
+        "refusedWith": 0
+    },
+    {
+        "by": 0,
+        "suspect": 1,
+        "room": 6,
+        "weapon": 4,
+        "refusedBy": false
+    }
+]
