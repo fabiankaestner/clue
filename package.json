@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "csprng": "^0.1.2",
+    "inquirer": "^3.2.1"
+  }
+}

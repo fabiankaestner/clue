@@ -1,0 +1,147 @@
+[
+    {
+        "by": 1,
+        "person": 0,
+        "room": 8,
+        "weapon": 3,
+        "refusedBy": 0,
+        "refusedWithType": "Raum",
+        "refusedWith": 8
+    },
+    {
+        "by": 2
+    },
+    {
+        "by": 0
+    },
+    {
+        "by": 1,
+        "person": 3,
+        "room": 4,
+        "weapon": 1,
+        "refusedBy": 2
+    },
+    {
+        "by": 2,
+        "person": 0,
+        "room": 3,
+        "weapon": 3,
+        "refusedBy": 0,
+        "refusedWithType": "Person",
+        "refusedWith": 0
+    },
+    {
+        "by": 0,
+        "person": 5,
+        "room": 4,
+        "weapon": 3,
+        "refusedBy": 2,
+        "refusedWithType": "Person",
+        "refusedWith": 5
+    },
+    {
+        "by": 1,
+        "person": 4,
+        "room": 1,
+        "weapon": 3,
+        "refusedBy": false
+    },
+    {
+        "by": 2,
+        "person": 5,
+        "room": 2,
+        "weapon": 2,
+        "refusedBy": 1
+    },
+    {
+        "by": 0,
+        "person": 2,
+        "room": 8,
+        "weapon": 4,
+        "refusedBy": false
+    },
+    {
+        "by": 1,
+        "person": 3,
+        "room": 4,
+        "weapon": 5,
+        "refusedBy": 2
+    },
+    {
+        "by": 2,
+        "person": 2,
+        "room": 4,
+        "weapon": 5,
+        "refusedBy": 1
+    },
+    {
+        "by": 0,
+        "person": 5,
+        "room": 2,
+        "weapon": 4,
+        "refusedBy": 2,
+        "refusedWithType": "Person",
+        "refusedWith": 5
+    },
+    {
+        "by": 1
+    },
+    {
+        "by": 2,
+        "person": 4,
+        "room": 8,
+        "weapon": 3,
+        "refusedBy": 0,
+        "refusedWithType": "Raum",
+        "refusedWith": 8
+    },
+    {
+        "by": 0
+    },
+    {
+        "by": 1,
+        "person": 1,
+        "room": 6,
+        "weapon": 2,
+        "refusedBy": 0,
+        "refusedWithType": "Raum",
+        "refusedWith": 6
+    },
+    {
+        "by": 2,
+        "person": 1,
+        "room": 6,
+        "weapon": 4,
+        "refusedBy": 0,
+        "refusedWithType": "Raum",
+        "refusedWith": 6
+    },
+    {
+        "by": 0,
+        "person": 0,
+        "room": 1,
+        "weapon": 4,
+        "refusedBy": 1,
+        "refusedWithType": "Raum",
+        "refusedWith": 1
+    },
+    {
+        "by": 1
+    },
+    {
+        "by": 2,
+        "person": 0,
+        "room": 3,
+        "weapon": 4,
+        "refusedBy": 0,
+        "refusedWithType": "Person",
+        "refusedWith": 0
+    },
+    {
+        "by": 0,
+        "person": 0,
+        "room": 4,
+        "weapon": 4,
+        "refusedBy": false
+    }
+]

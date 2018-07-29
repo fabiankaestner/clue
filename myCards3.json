@@ -1,0 +1,22 @@
+[
+    {
+        "type": "weapon",
+        "index": 3
+    },
+    {
+        "type": "room",
+        "index": 1
+    },
+    {
+        "type": "weapon",
+        "index": 5
+    },
+    {
+        "type": "room",
+        "index": 0
+    },
+    {
+        "type": "person",
+        "index": 1
+    }
+]

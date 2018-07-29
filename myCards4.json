@@ -1,0 +1,18 @@
+[
+    {
+        "type": "weapon",
+        "index": 0
+    },
+    {
+        "type": "person",
+        "index": 5
+    },
+    {
+        "type": "person",
+        "index": 3
+    },
+    {
+        "type": "weapon",
+        "index": 2
+    }
+]
